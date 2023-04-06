@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 767px) {
+    .cardEq {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 46%;
+    }
+
+    .carta {
+        height: 285px;
+    }
+
+    .cardEq:last-child {
+        margin-bottom: 3%;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    #logo img {
+        width: 25px;
+        height: 25px;
+    }
+
+    form {
+        width: 75%;
+    }
+
+    .copy {
+        margin-left: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .cardEq {
+        width: 94.5%;
+    }
+
+    .carta {
+        height: 260px;
+    }
+}
+

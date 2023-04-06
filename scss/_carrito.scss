@@ -1,0 +1,122 @@
+/*PRODUCTOS*/
+
+.muestreoProd {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+#premio {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 25px;
+}
+
+#premio img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+#premio h2 {
+    margin-bottom: 15px;
+}
+#premio span {
+    margin-bottom: 15px;
+}
+
+
+#finCompra {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 11px;
+    padding: 7px;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(253, 254, 203) 0%, rgb(253, 254, 203) 50%, rgb(253, 254, 203) 100%);
+    box-shadow: rgb(185, 152, 35) 5px 5px 15px 5px;
+    border: none;
+    display: inline-block;
+}
+
+#finCompra:hover {
+    background: #c1c78a;
+}
+
+#finCompra:active {
+    background: #ececea;
+}
+
+.btnPremio{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sumar{
+   
+    background-color:rgb(38, 195, 7);
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+#sumar:active {
+    
+    border: 1px solid aliceblue;
+}
+#sumar:hover {
+    background: #72ac6f;
+}
+
+
+
+#restar{
+   
+    background-color:rgb(195, 7, 7);
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+#restar:active {
+    
+    border: 1px solid aliceblue;
+}
+#restar:hover {
+    background: #df3232;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 100%;
+}
+
+#btnFinCompra{
+
+    background-color:rgb(43, 255, 0);
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+#btnFinCompra:hover{
+    background-color:rgb(93, 188, 74);
+}
+
+#btnFinCompra:active {
+    
+    border: 1px solid aliceblue;
+}

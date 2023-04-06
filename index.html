@@ -29,7 +29,7 @@
                 <ul>
                     <li class="menIcon"> <a href="./index.html">Inicio</a> </li>
                     <li class="menIcon"><a href="./pages/nosotros.html">Nosotros</a> </li>
-                    <li class="menIcon"> <a href="./pages/trucos.html">Trucos</a> </li>
+                    <li class="menIcon"> <a href="./pages/trucos.html">Escuela</a> </li>
                     <li class="menIcon"> <a href="./pages/premios.html">Premios</a> </li>
                     <li class="menIcon"><a href="./pages/carrito.html">Carrito</a> </li>
                 </ul>
@@ -54,34 +54,81 @@
         </section>
 
         <div class="presEqp">
-            <h1>Hola! <br><br> Bienvenidos a Tu Can, somos una empresa familiar dedicada a la educacion canina, nuestro
-                proyecto es ayudarte a educar a tu perro a traves de juegos y de manera divertida.</h1>
+            <div class="presentacion">
+                <h1> Bienvenidos a Tu Can <br><br> La empresa familiar dedicada a la educacion canina</h1>
+
+                <p> Nuestro objetivo es ayudarte a educar a tu perro a traves de juegos y de manera divertida</p>
+            </div>
 
             <h2>Nuestro equipo</h2>
-            <div class="contEquipo">
-                <div id="cardEq">
-                    <img src="./img/640012cf012da92a768fe5909954b932.jpg" alt="">
-                    <span>Raul</span>
-                    <p>Encargado del adiestramiento canino</p>
+
+            <div class="contEquipo"> <!-- contenedor para cards boxescontainer-->
+
+                <div class="cardEq"> <!--cardbox-->
+                    <div class="carta">
+
+                        <div class="frente">
+                            <p>Raul <br><br>Encargado del adiestramiento canino</p>
+                        </div>
+
+                        <div class="dorso">
+                            <img src="./img/640012cf012da92a768fe5909954b932.jpg" alt="">
+
+                        </div>
+                    </div>
                 </div>
 
-                <div id="cardEq">
-                    <img src="./img/OIP.jfif" alt="">
-                    <span>Ernestina</span>
-                    <p>Cuidadora y realizadora de premios</p>
+                <div class="cardEq">
+                    <div class="carta">
+
+                        <div class="frente">
+                            <p>Ernestina <br><br>Cuidadora y realizadora de premios</p>
+                        </div>
+
+                        <div class="dorso">
+                            <img src="./img/OIP.jfif" alt="">
+                        </div>
+                    </div>
+
+
                 </div>
+
             </div>
         </div>
 
 
-        <section class="videoNos">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/MWE7o5WsDPs"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+
+
+        <h4>Trabajamos con las mejores marcas del mercado</h4>
+
+        <section class="patrocinadores">
+
+            <div class="marcas">
+                <div class="fondoMarca"><a href=""> <img src="./img/chow-chow-dog-chow-dog-f.png" alt=""> </a></div>
+            </div>
+
+            <div class="marcas">
+                <div class="fondoMarca"><a href="https://germanshepherdcountry.com/"> <img
+                            src="./img/-german-shepherd-.png" alt=""></a></div>
+            </div>
+
+            <div class="marcas">
+                <div class="fondoMarca"> <a href="http://"> <img src="./img/dog-food-diamond-.png" alt=""></a></div>
+            </div>
+
+            <div class="marcas">
+                <div class="fondoMarca"> <a href="http://"><img src="./img/royal-canin-cat-food-l.png" alt=""></a>
+                </div>
+            </div>
+
+
+
         </section>
 
 
+
+        <div class="fondoMarca5"><img src="./img/dog-puppy-pet-surprise-.png" alt=""></a>
+        </div>
 
         <section class="contact">
 
@@ -103,26 +150,45 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" />
 
-                <input  id="btnForm" type="submit" value="Enviar formulario" />
+                <input id="btnForm" type="submit" value="Enviar formulario" />
 
             </form>
-
-
-
 
         </section>
 
     </main>
 
     <footer>
-        <div class="redes">
-            <a href="https://www.youtube.com"> <img src="./img/youtube.png" alt="youtube"> </a>
-            <a href="https://www.facebook.com"> <img src="./img/facebook.png" alt="facebook"> </a>
-            <a href="https://www.instagram.com"> <img src="./img/instagram.png" alt="instagram"> </a>
-        </div>
+        <section>
+            <a class="logoFooter" href="./index.html"><img src="./img/logo.png" alt="logo"> </a>
+
+            <div class="redes">
+                <span>Nuestras redes
+                    <hr>
+                </span>
+                <div id="ordenRedes">
+                    <a href="https://www.youtube.com"> <img src="./img/youtube.png" alt="youtube"> </a>
+                    <a href="https://www.facebook.com"> <img src="./img/facebook.png" alt="facebook"> </a>
+                    <a href="https://www.instagram.com"> <img src="./img/instagram.png" alt="instagram"> </a>
+                </div>
+            </div>
+
+            <div class="mapa">
+                <span>Mapa del sitio
+                    <hr>
+                </span>
+                <ul class="columMap">
+                    <li class="mp"><a href="./pages/nosotros.html">Nosotros</a> </li>
+                    <li class="mp"> <a href="./pages/trucos.html">Escuela</a> </li>
+                    <li class="mp"> <a href="./pages/premios.html">Premios</a> </li>
+                    <li class="mp"><a href="./pages/carrito.html">Carrito</a> </li>
+                </ul>
+            </div>
+
+        </section>
 
         <div class="copy">
-            <span>Proyecto Coderhouse <br> 2023 Creado por Micaela Degastaldi</span>
+            <span> <hr>Proyecto Coderhouse | Creado por Micaela Degastaldi | 2023<hr></span>
         </div>
 
     </footer>
