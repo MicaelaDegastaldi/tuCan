@@ -17,70 +17,62 @@
 </head>
 
 <body>
-    
+
     <header>
         <a id="logo" href="../index.html"><img src="../img/logo.png" alt="logo"> </a>
+
         <nav>
             <div class="navBar">
                 <ul>
                     <li class="menIcon"> <a href="../index.html">Inicio</a> </li>
-                    <li class="menIcon"><a href="/pages/nosotros.html">Nosotros</a> </li>
-                    <li class="menIcon"> <a href="/pages/trucos.html">Escuela</a> </li>
-                    <li class="menIcon"> <a href="/pages/premios.html">Premios</a> </li>
-                    <li class="menIcon"><a href="/pages/carrito.html">Carrito</a> </li>
+                    <li class="menIcon"><a href="./nosotros.html">Nosotros</a> </li>
+                    <li class="menIcon"> <a href="./trucos.html">Escuela</a> </li>
+                    <li class="menIcon"> <a href="./premios.html">Premios</a> </li>
+                    <li class="menIcon"><a href="./carrito.html">Carrito</a> </li>
                 </ul>
             </div>
         </nav>
-
     </header>
 
     <div class="muestreoProd">
-        <div id="premio">
-            <img src="" alt="">
+        <div class="premio">
+            <img src="../img/correa.jpg" alt="">
+            <div class="eColor">
+                <span>Elija un color:</span>
+                <div id="aa"></div>
+                <div id="bb"></div>
+                <div id="cc"></div>
+            </div>
+        </div>
+
+        <div class="ordenInfo">
             <h2>Correa</h2>
-            <span>$1500</span>
-            <div class="btnPremio">
-                <button id="sumar"> + </button>
-                <button id="restar"> - </button>
-            </div>
-            
-        </div>
-        <div id="premio">
-            <img src="" alt="">
-            <h2>Pelota</h2>
-            <span>$500</span>
-            
-            <div class="btnPremio">
-                <button id="sumar"> + </button>
-                <button id="restar"> - </button>
-            </div>
-            
+            <p><strong>Descripcion:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo numquam beatae quia similique aperiam nesciunt molestias aliquid quasi inventore quo perspiciatis et laudantium veritatis temporibus tenetur omnis, quaerat impedit magni!</p>
 
-        </div>
-        <div id="premio">
-            <img src="" alt="">
-            <h2>Pretal</h2>
-            <span>$2500</span>
-            
+            <span><strong>Precio: </strong>$1500</span>
+            <span><strong>Cantidad: </strong>1</span>
+
             <div class="btnPremio">
                 <button id="sumar"> + </button>
                 <button id="restar"> - </button>
             </div>
 
-        </div>
-        <div id="premio">
-            <img src="" alt="">
-            <h2>Golosina</h2>
-            <span>$1000</span>
-            
-            <div class="btnPremio">
-                <button id="sumar"> + </button>
-                <button id="restar"> - </button>
-            </div>
+            <fieldset>
+                <legend><strong>Elija una opcion:</strong> Envio a domicilio o retiro en sucursal</legend>
 
-        </div>
+                <div>
+                    <label for="domicilio">Envio a domicilio</label>
+                    <input type="checkbox" id="domicilio" name="domicilio" checked>
 
-      
+                </div>
+
+                <div>
+                    <label for="local">Retiro en sucursal</label>
+                    <input type="checkbox" id="local" name="local">
+
+                </div>
+            </fieldset>
+        </div>
 
     </div>
 
@@ -91,7 +83,7 @@
 
     <footer>
         <section>
-            <a class="logoFooter" href="index.html"><img src="/img/logo.png" alt="logo"> </a>
+            <a class="logoFooter" href="index.html"><img src="../img/logo.png" alt="logo"> </a>
 
             <div class="redes">
                 <span>Nuestras redes
@@ -119,13 +111,16 @@
         </section>
 
         <div class="copy">
-            <span> <hr>Proyecto Coderhouse | Creado por Micaela Degastaldi | 2023<hr></span>
+            <span>
+                <hr>Proyecto Coderhouse | Creado por Micaela Degastaldi | 2023
+                <hr>
+            </span>
         </div>
 
     </footer>
 
-   
-    
+
+
 </body>
 
 </html>
