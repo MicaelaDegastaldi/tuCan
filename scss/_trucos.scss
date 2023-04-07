@@ -141,6 +141,12 @@ h1 {
   background-color: darkgray;
   position: relative;
 
+  img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+
   .glass {
     position: absolute;
     background-color: #ffffffc0;
@@ -155,11 +161,6 @@ h1 {
       justify-content: center;
     }
 
-    img {
-      position: absolute;
-      width: 500px;
-      height: 500px;
-    }
 
     p {
       position: relative;

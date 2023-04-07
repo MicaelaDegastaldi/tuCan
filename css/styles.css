@@ -322,6 +322,11 @@ h1 {
   background-color: darkgray;
   position: relative;
 }
+.visualTruco img {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
 .visualTruco .glass {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.7529411765);
@@ -333,11 +338,6 @@ h1 {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-}
-.visualTruco .glass img {
-  position: absolute;
-  width: 500px;
-  height: 500px;
 }
 .visualTruco .glass p {
   position: relative;
@@ -788,6 +788,51 @@ form select {
   .copy {
     margin-left: none;
   }
+}
+.productos {
+  display: flex;
+  width: 90%;
+  min-height: 1500px auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 5%;
+}
+.productos .premio {
+  height: 350px;
+  border: solid darkgray 1px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.productos .premio h2 {
+  margin-bottom: 20px;
+}
+.productos .premio span {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.productos .premio img {
+  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+}
+.productos .premio .finCompra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 70%;
+  border: solid 2px blueviolet;
+  border-radius: 5px;
+}
+.productos .premio .finCompra:hover {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(180, 244, 70, 0.573);
+  border: hidden;
+  transition: 2s;
 }
 
 /*# sourceMappingURL=styles.css.map */
