@@ -262,7 +262,7 @@ footer {
                     display: flex;
                     list-style: none;
                     justify-content: center;
-                    
+
 
                 }
             }
@@ -273,7 +273,7 @@ footer {
             display: flex;
             justify-content: flex-start;
             padding-left: 0px;
-            
+
 
             a {
                 text-decoration: none;
@@ -289,4 +289,28 @@ footer {
     }
 
 
+}
+
+@media(max-width: 420px) {
+
+    footer {
+        section {
+            padding-top: 50px;
+            flex-direction: row-reverse;
+            .logoFooter {
+               
+                width: 0px; 
+                
+                
+            }
+            .redes {
+                margin-top: 0px;
+            }
+
+            .mapa {
+                margin-top: 0px;
+            }
+        }
+    }
+   
 }
