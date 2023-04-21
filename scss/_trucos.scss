@@ -15,17 +15,18 @@ h1 {
   justify-content: center;
   margin-top: 50px;
 }
+
 .cursosPerro {
   margin-top: 50px;
 
-  h2{
+  h2 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin-top: 150px;
     margin-bottom: 100px;
-  
-  
+
+
   }
 
   span {
@@ -35,7 +36,7 @@ h1 {
     font-size: 2rem;
     text-align: center;
     padding: 5px;
-   
+
   }
 
   p {
@@ -61,7 +62,7 @@ h1 {
   flex-flow: row wrap;
   align-content: center;
   justify-content: space-around;
-  
+
 
   .cardOff {
 
@@ -82,7 +83,7 @@ h1 {
       margin-top: 5%;
       font-size: 1.5rem;
       text-align: center;
-      
+
 
 
     }
@@ -110,10 +111,10 @@ h1 {
         border: solid 2px blueviolet;
         border-radius: 5px;
 
-        &:hover{
+        &:hover {
           width: 80%;
           height: 50px;
-          background-color: rgba(180, 244, 70, 0.573) ;
+          background-color: rgba(180, 244, 70, 0.573);
           border: hidden;
           transition: 2s;
         }
@@ -207,18 +208,20 @@ h1 {
     box-shadow: -1px 1px 10px 0px #000000;
   }
 }
-@media(max-width: 1000px){
 
-  .visualTruco{
+@media(max-width: 1000px) {
+
+  .visualTruco {
     width: 400px;
-    
-    img{
+
+    img {
       width: 400px;
     }
-    .glass{
+
+    .glass {
       width: 400px;
 
-      h2{
+      h2 {
         text-align: center;
       }
     }
@@ -227,25 +230,25 @@ h1 {
 
 }
 
-@media(max-width: 800px){
+@media(max-width: 800px) {
 
-  .listTrucos{
+  .listTrucos {
     justify-items: center;
   }
- 
+
 }
 
-@media (max-width: 600px){
-  .cursosOff{
-    .cardOff{
-      span{
-        
+@media (max-width: 600px) {
+  .cursosOff {
+    .cardOff {
+      span {
+
         font-size: 1rem;
       }
 
-      .btnBox{
+      .btnBox {
 
-        .btnInscribirse{
+        .btnInscribirse {
           font-size: 0.7rem;
         }
       }
@@ -253,19 +256,71 @@ h1 {
   }
 }
 
-@media (max-width: 500px){
-  .visualTruco{
+@media (max-width: 500px) {
+  .visualTruco {
     width: 350px;
-    
-    img{
+
+    img {
       width: 350px;
     }
-    .glass{
+
+    .glass {
       width: 350px;
 
-      h2{
+      h2 {
         text-align: center;
       }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+
+  .listTrucos {
+    justify-content: center;
+  }
+
+  .visualTruco {
+    width: 250px;
+
+    img {
+      width: 300px;
+    }
+
+    .glass {
+      width: 300px;
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+
+  .btnVerMas {
+    margin-top: none;
+  }
+
+  .cursosOff {
+
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+    .cardOff {
+      display: flex;
+      margin-top: 50px;
+      justify-content: center;
+      width: 90%;
     }
   }
 }

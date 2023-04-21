@@ -228,6 +228,19 @@ footer .copy span {
     width: 100%;
   }
 }
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+}
+
+h3 {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  width: 100%;
+}
+
 /* TRUCOS*/
 h1 {
   display: flex;
@@ -436,6 +449,45 @@ h1 {
   }
   .visualTruco .glass h2 {
     text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .listTrucos {
+    justify-content: center;
+  }
+  .visualTruco {
+    width: 250px;
+  }
+  .visualTruco img {
+    width: 300px;
+  }
+  .visualTruco .glass {
+    width: 300px;
+  }
+  .visualTruco .glass p {
+    font-size: 1.2rem;
+  }
+  .visualTruco .glass h2 {
+    text-align: center;
+  }
+  .btnVerMas {
+    margin-top: none;
+  }
+  .cursosOff {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .cursosOff .cardOff {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    width: 90%;
   }
 }
 /*PRODUCTOS*/
@@ -806,7 +858,7 @@ form select {
 /*BOOTSTRAP*/
 /*SLIDER*/
 .carousel {
-  height: 600px;
+  margin-bottom: 50px;
 }
 
 .carousel-inner {
@@ -910,6 +962,10 @@ form select {
   }
 }
 @media (max-width: 420px) {
+  .contEquipo {
+    flex-direction: column;
+    height: 1100px;
+  }
   .contact {
     display: block;
   }

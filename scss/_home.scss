@@ -256,7 +256,8 @@ form {
 
 
 .carousel {
-    height: 600px;
+
+    margin-bottom: 50px;
 }
 
 .carousel-inner {
@@ -443,6 +444,12 @@ form {
 }
 
 @media (max-width: 420px){
+
+    .contEquipo{
+        flex-direction: column;
+        height: 1100px;
+    }
+   
     .contact{
         display: block;
     }
